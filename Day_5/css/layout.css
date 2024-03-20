@@ -1,0 +1,48 @@
+
+.SideMenu {
+    width: 250px; 
+    height: 100%;
+    background-color: #333;
+    color: #fff; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 20px; 
+  }
+  
+  .SideMenuVertical {
+    width: 100%;
+    background-color: #333; 
+  }
+  
+  .SideMenu .ant-menu-item {
+    color: #fff; 
+  }
+  
+  
+  .SideMenu .ant-menu-item-selected {
+    background-color: #444; 
+  }
+  
+  
+  .ContentContainer {
+    margin-left: 250px; 
+    padding: 20px;
+    transition: margin-left 0.3s; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    
+    .SideMenu {
+      width: 0;
+      padding-top: 0;
+    }
+  
+   
+    .ContentContainer {
+      margin-left: 0;
+    }
+  }
+  

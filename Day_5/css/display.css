@@ -1,0 +1,51 @@
+.display-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.display-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.display-data {
+  margin-bottom: 10px;
+}
+
+.display-data label {
+  font-weight: bold;
+}
+
+.display-data p {
+  margin: 5px 0;
+}
+
+.display-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.display-button:hover {
+  background-color: #0056b3;
+}
+
+.display-button.edit {
+  margin-right: 10px;
+}
+
+.display-button.delete {
+  background-color: #dc3545;
+}
+
+.display-button.delete:hover {
+  background-color: #bd2130;
+}
